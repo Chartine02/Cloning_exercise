@@ -15,16 +15,24 @@
       class="bg-cover"
       style="background-image: url('./backg.jpeg'); height: 600px"
     >
-      <nav class="flex justify-between bg-white h-20 p-6">
-        <h1 class="text-blue-700 text-4xl font-semibold ml-4">FeWo-direkt</h1>
-        <div class="flex space-x-4 text-fff font-medium justify-center text-sm">
-          <div
-            class="flex border rounded-full p-2 space-x-2 hover:bg-blue-10 justify-center"
+      <nav
+        class="flex justify-between items-center flex-wrap bg-white h-20 px-14 p-6"
+      >
+        <h1 class="text-blue-700 text-4xl font-semibold ml-4">
+          FeWo-direkt
+          <sup class="registered w-4">&reg;</sup>
+        </h1>
+        <div
+          class="flex space-x-4 text-fff font-semibold justify-center items-center text-sm"
+        >
+          <a
+            href=""
+            class="flex border gap-2 p-2 rounded-full space-x-2 hover:bg-blue-100 justify-center"
           >
-            <img src="./download.png" alt="" class="w-4" />
-            <a href="" class="r">App herunterladen</a>
-          </div>
-
+            <!-- <img src="./download.png" alt="" class="w-4" />  -->
+            <i class="fa fa-download text-blue-800" aria-hidden="true"></i>
+            App herunterladen</a
+          >
           <a href="" class="hover:text-blue-400">Reiseplaner</a>
           <a href="" class="hover:text-blue-400">Unterkunft registrieren</a>
           <a href="" class="hover:text-blue-400">Hilfe</a>
@@ -32,12 +40,40 @@
           <a href="" class="hover:text-blue-400">Anmelden</a>
         </div>
       </nav>
-      <div>
-        <h1 class="text-white text-4xl font-bold">
+      <div class="justify-center items-center m-8 mt-40 px-14">
+        <h1 class="text-white text-5xl font-bold mt-12">
           Findet euren Ort füreinander
         </h1>
-        <div>
-          <a href="" class=""> <img src="" alt="" /></a>
+        <div
+          class="flex items-center justify-between space-x-4 rounded-md bg-white p-2"
+        >
+          <!-- <img src="./download.png" alt="" class="w-4" /> -->
+
+          <a
+            href=""
+            class="flex border gap-2 items-center border-black border-opacity-20 rounded-md p-2 w-full"
+          >
+            <i class="fa fa-map-marker items-center" aria-hidden="true"></i>
+            Reisezel</a
+          >
+          <a
+            href=""
+            class="flex gap-2 items-center border border-black rounded-md border-opacity-20 p-2 w-full"
+            img
+          >
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            Daten</a
+          >
+          <a
+            href=""
+            class="flex gap-2 items-center border border-black rounded-md border-opacity-20 p-2 w-full"
+          >
+            <i class="fa fa-user" aria-hidden="true"></i>
+            2 Reisende</a
+          >
+          <button class="border bg-blue-950 text-white p-2 w-26 rounded-3xl">
+            Suchen
+          </button>
         </div>
       </div>
     </div>
